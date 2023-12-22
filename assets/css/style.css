@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* the body section controls everything viewable on the page*/
 body {
     background-color: #d9dcd6;
 }
-
+/* the following controls the header elements including the nav bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/*the hero image is the large image at the forefront of the homepage and could be considered the bannister of the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +60,7 @@ p {
     background-position: center;
 }
 
+/*the floats are the images attatched to the paragraphs in the main sections*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -188,6 +190,7 @@ p {
     font-size: 36px;
 }
 
+/* the footer is at the end of the website and will usually hold a small message or copyright information*/
 footer {
     padding: 30px;
     clear: both;
